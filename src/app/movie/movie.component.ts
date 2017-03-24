@@ -18,8 +18,7 @@ export class MovieComponent implements OnInit {
 
     constructor(private _sharedService: SharedService) { }
  
-    ngOnInit() {
-    }
+    ngOnInit() { }
  
     callMovieService() { 
         this._sharedService.findMovie(this.id_movie)
